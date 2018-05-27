@@ -7,94 +7,43 @@
 
 \hyphenation{Some-long-word}
 \usepackage{mdwlist}
-\usepackage{multicol}
-
-% For \textscale, which I prefer over \sc (small caps).
-% See the \acr command definition below.
+%\usepackage{multicol}
 \usepackage{relsize}
 
-% Setup the hyperrefs with the right color.
 \usepackage{hyperref}  
 \usepackage{xcolor}
 \definecolor{dark-blue}{rgb}{0.15,0.15,0.4}
 \hypersetup{colorlinks,linkcolor={dark-blue},citecolor={dark-blue},urlcolor={dark-blue}}
 
-% XeTeX specific stuff with fall-back.
-\usepackage{ifxetex}
-\ifxetex
+\usepackage{tgpagella}
+\usepackage[expansion,protrusion]{microtype}
 
-  \usepackage{fontspec}
-  
-  % the main font, with all features on
-  \setmainfont
-    [ ExternalLocation ,
-      Mapping          = tex-text ,
-      Numbers          = OldStyle ,
-      Ligatures        = {Common,Contextual} ,
-      BoldFont         = texgyrepagella-bold.otf ,
-      ItalicFont       = texgyrepagella-italic.otf ,
-      BoldItalicFont   = texgyrepagella-bolditalic.otf ]
-    {texgyrepagella-regular.otf}
-    
-  % same like the main font, but without old-style nums
-  \newfontfamily\newnums
-    [ ExternalLocation ,
-      Mapping          = tex-text ,
-      Ligatures        = {Common,Contextual} ,
-      BoldFont         = texgyrepagella-bold.otf ,
-      ItalicFont       = texgyrepagella-italic.otf ,
-      BoldItalicFont   = texgyrepagella-bolditalic.otf ]
-    {texgyrepagella-regular.otf}
-
-  % needs an experimental and impossible to find package for xetex
-  \usepackage[protrusion]{microtype}
-
-\else
-
-  \usepackage{tgpagella}
-  \usepackage[expansion,protrusion]{microtype}
-
-\fi
-
-%%% DOCUMENT WIDE STYLING
 
 \pagestyle{empty}
 \setlength{\tabcolsep}{0em}
-\xspaceskip7pt  % some more spacing between sentences (use "i.e.\ " or "with SQL\@. " in case of errors)
+\xspaceskip7pt
 
-%%% CUSTOM COMMANDS
-
-% main title (name) with subtitle (date)
 \newcommand\maintitle[3]{\vbox to 0pt{\hfill\scriptsize\color{gray} #3}\vspace{-0.4em}\noindent{\LARGE \textbf{#1}}\ \ \ \emph{#2}}
 
-% title for the root sections (experience, education, etc) of the resume
 \newcommand*\roottitle[1]{\subsection*{#1}\vspace{-0.3em}\nopagebreak[4]}
 
-% acr command, to quickly mark acronyms for special formatting
 \newcommand*\acr[1]{\textscale{.85}{#1}}
 
-% pretty bullet (created from a much smaller centerdot), \sbull contains its spacing
 \newcommand*\bull{\raisebox{-0.365em}[-1em][-1em]{\textscale{4}{$\cdot$}}}
 \newcommand*\sbull{\ \ \bull \ \ }
 
-% it seems not to work when simply using \parindent...
 \newlength{\newparindent}
 \addtolength{\newparindent}{\parindent}
 
-% a double \parindent...
 \newlength{\doubleparindent}
 \addtolength{\doubleparindent}{\parindent}
 \addtolength{\doubleparindent}{\parindent}
 
-% a double \parindent...
 \newlength{\tripleparindent}
 \addtolength{\tripleparindent}{\parindent}
 \addtolength{\tripleparindent}{\parindent}
 \addtolength{\tripleparindent}{\parindent}
 
-
-% indentsection style, used for sections that aren't already in lists
-% that need indentation to the level of all text in the document
 \newenvironment{indentsection}%
 {\begin{list}{}%
   {\setlength{\leftmargin}{\newparindent}\setlength{\parsep}{0pt}\setlength{\parskip}{0pt}\setlength{\itemsep}{0pt}\setlength{\topsep}{0pt}}%
@@ -134,8 +83,6 @@
 
 % Header 3, inline
 \newcommand{\headerthreeinline}[2]{\vspace{-2.0em}\begin{basedescript}{\setlength{\leftmargin}{\tripleparindent}}\item[\hspace{\tripleparindent}\textbf{#1}]#2\end{basedescript}\vspace{0.1em}}
-
-
 
 
 \begin{document} 
@@ -252,7 +199,7 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
     \inlineheadsection
     {Languages:}{Java, \acr{SQL}.  Secondary experience with web development using \acr{HTML}, JavaScript (including jQuery), and hosting \acr{REST} server. Shell scripts including \acr{BASH}, PowerShell. \acr{C++}\\} 
     \inlineheadsection
-    {Academic experience only:}{\acr{R}, Swift, Prolog, \acr{LISP}, \acr{C}, Android } 
+    {Academic experience only:}{\acr{R}, Swift, Python, \acr{C}, Android, \LaTeX } 
   
 \spacedhrule{1.5em}{-0.4em}
 
@@ -304,12 +251,6 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
 
 
 \spacedhrule{1.5em}{-0.4em}
-  
-%%%%%%%%%%%%% Obligatory filler at the end
-    
-%\roottitle{Other}
-%\inlineheadsection  
-%  {Miscellaneous Skills:} {Technical writing,   \LaTeX,  graphic design, securities analysis.}
 
 \vfill  
 {\footnotesize Last updated on \today}
