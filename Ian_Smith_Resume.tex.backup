@@ -150,17 +150,17 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
         {\bodytext{Ageus Solutions was a successful independent consulting startup which was integrated into Intertek Health and Environmental after acquisition.  One of the founders of the company.  Served on board of Directors and as a corporate officer.  Responsible for legal due diligence during \acr{M\&A}.  Designed core analytical services and directed team of regulatory researchers.}}
 }
 
-%\headedsection
-%    {\href{http://www.bce.ca/news-and-media/releases/show/nortel-networks-creates-high-performance-optical-components-business-unit}{Nortel Networks}}
-%    {\textsc{Optical Components --- Ottawa, Canada}} {
-%    \headedsubsection
-%        {IC Designer}
-%        {June 2000 -- December 2004}
-%        {\bodytext{ The former Nortel Optical Components Group designed and fabricated \acr{GaAs ICs} for use in optical long haul equipment.  
-%        Analyzed integrated circuits and discrete semiconductor devices for root-cause of failure.  
-%        Assembled and ran laboratory at minimal cost during downsizing. 
-%        Experimentally demonstrated recurring failure mechanisms.  Advised manufacturing operations to implement corrective action.}}
-%}
+\headedsection
+    {\href{http://www.bce.ca/news-and-media/releases/show/nortel-networks-creates-high-performance-optical-components-business-unit}{Nortel Networks}}
+    {\textsc{Optical Components --- Ottawa, Canada}} {
+    \headedsubsection
+        {IC Designer}
+        {June 2000 -- December 2004}
+        {\bodytext{ The former Nortel Optical Components Group designed and fabricated \acr{GaAs ICs} for use in optical long haul equipment.  
+        Analyzed integrated circuits and discrete semiconductor devices for root-cause of failure.  
+        Assembled and ran laboratory at minimal cost during downsizing. 
+        Experimentally demonstrated recurring failure mechanisms.  Advised manufacturing operations to implement corrective action.}}
+}
 
 
 \spacedhrule{0.5em}{-0.4em}
@@ -175,19 +175,17 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
     \headedsubsection
         {Bachelor of Computer Science}
         {2018}
-        {\bodytext{With High Distinction.  Data management, \acr{AI}, and software engineering.  
-        Web and mobile application development. Computer Vision.  
-        Named to Dean's List in 2016 and 2017.  Awarded Senate Medal for Outstanding Academic Achievement }}
+        {\bodytext{With High Distinction.  Data management, \acr{AI}, and software engineering.  Web and mobile application development. Computer Vision.  Named to Dean's List in 2016 and 2017.}}
 }
 
-%\headedsection
-%    {\href{http://www.umanitoba.ca}{University of Manitoba}}
-%    {\textsc{Winnipeg, Canada}} {
-%    \headedsubsection
-%        {B.Sc. (Electrical Engineering)}
-%        {1999} 
-%        {\bodytext{Focused on microelectronics and \acr{VLSI} design. Acquired proficiency in \acr{IC} design tools, statistics and mathematics, \acr{MATLAB}, and \acr{C++}. }} 
-%}
+\headedsection
+    {\href{http://www.umanitoba.ca}{University of Manitoba}}
+    {\textsc{Winnipeg, Canada}} {
+    \headedsubsection
+        {B.Sc. (Electrical Engineering)}
+        {1999} 
+        {\bodytext{Focused on microelectronics and \acr{VLSI} design. Acquired proficiency in \acr{IC} design tools, statistics and mathematics, \acr{MATLAB}, and \acr{C++}. }} 
+}
 
 \spacedhrule{0.5em}{-0.4em}
 
