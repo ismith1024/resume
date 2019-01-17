@@ -1,3 +1,3 @@
 # Resume
 
-My current resume, written in $\LaTeX$.
+My current resume, written in LaTeX.
