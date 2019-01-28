@@ -1,0 +1,125 @@
+==== Summary
+
+Provide technical leadership to an engineering team in the domain of supply chain risk analysis.  Intertek provides testing and certification services to the manufacturing sector.  I interpret the results of the findings and communicate directly to stakeholders (clients, internal organization, public)
+
+I have built solutions for:
+  - Business process automation
+  - Data pipelines
+  - Web-based tools for supply chain risk assessment
+  - Scraping web repositories to keep research up to date 
+
+==== Professional Experience
+
+Intertek
+Global Restricted Substances — Ottawa, Canada
+Engineer
+October 2009 – present
+Intertek is a global auditing, testing, and certification service provider. Designed and implemented a
+configurable risk analysis platform for worldwide chemical regulatory compliance. Mine and analyze
+data to keep up to date on enforcement and risk trends. Automate business processes. Mentor junior
+team members.
+
+Ageus Solutions
+Ottawa, Canada
+Engineer
+January 2005 – October 2009
+Ageus Solutions was a successful independent consulting startup which was integrated into Intertek
+Health and Environmental after acquisition. One of the founders of the company. Served on board of
+Directors and as a corporate officer. Responsible for legal due diligence during M&A . Designed core
+analytical services and directed team of regulatory researchers.
+
+Nortel Networks
+Optical Components — Ottawa, Canada
+IC Designer
+June 2000 – December 2004
+The former Nortel Optical Components Group designed and fabricated GaAs ICs for use in optical long
+haul equipment. Analyzed integrated circuits and discrete semiconductor devices for root-cause of
+failure. Assembled and ran laboratory at minimal cost during downsizing. Experimentally demon-
+strated recurring failure mechanisms. Advised manufacturing operations to implement corrective
+action.
+
+==== Skills
+
+Key Technologies:
+ - Python (Pandas, Requests, ScikitLearn, NumPy, Flask)
+ - SQL
+ - Java
+ - Javascript
+ - R 
+ - Jupyter Notebooks
+
+Applications:
+ - Data pipelines & ETL
+ - Web scraping
+ - Machine learning
+ - Natural language processing
+ - Web apps
+ - Mathematical and Statistical models
+ - Business-domain research
+
+==== Professional Projects
+
+Risk Analysis Application 
+Purpose: Analyze a client's supply chain for material risks.  Machine learning algorithm determines the types of materials based on text.
+Renders a tabular report with recommended testing plan or design revisions, to assist a material science SME.  For a complex product, this allows a client to apply chemical testing in a cost-effective manner.
+Results: Reduced a multi-week engineering workflow to hours.  XXX successful customer-projects to date.
+Technology: Python, SQL, Javascript
+
+Material Risk Knowledge Base
+Purpose:  Periodically mines product recall and litigation repositories to obtain up-to-date chemical infraction data set.  Cleans and transforms
+raw HTML and XML, processes free text, and stores results in SQL repository.
+Results: Intertek maintains an industry-leading knowledge base on exactly what regulated chemicals are used, and in what types of products.
+Technology: Python (Pandas, Requests, NLTK), Java, SQL
+
+ETL Pipelines 
+Purpose: Automates customers' product design encodings and results of conformity assessments from various sources.  Maps schemas, cleans data, stores in engineering SQL database 
+Results: Intertek is able to accept product conformity data from in-house sources, third-party service providers, or customers, and deliver a consistent, repeatable analysis product.
+Technology: Python, SQL
+
+==== Academic & Personal Projects
+
+Value-Investor Stock Anaylzer
+Purpose: Stock-market algorithms are ubiquitous, but I built this tool to apply Benjamin Graham/Warren Buffet Style fundamentals analysis at a time when "value invesing" was out of style.  It is essentially a regression learner which trains on fundamentals, predicting opportunity five-year returns.  It uses the Shiny framework to provide the user with a convenient web UI.
+Results: Beat the TSX very nicely.
+Technology: R, SQL, Javascript
+
+Carleton Honors Project
+Purpose:  Uses Natural Language Processing to extract product structure and composition from free text obtained from industrial designs. Implemented in C++ .
+Result: Portions of this academic project were found to be suitable for deployment in an industrial setting (I donated them to Intertek's Risk Analysis Application)
+Technology: C++, Machine Learning, Natural Language Processing, NLTK API (As part of the academic requirement, I wrote the NLP from scratch in C++)
+
+Udacity Deep-Learning Project
+Purpose: Classify the Oxford "Flowers" dataset by species using a convolutional neural network 
+Result: <>
+Technology: Pytorch, Deep neural networks, Computer vision
+
+Udacity NLP Pipeline
+Purpose: 
+Result:
+Technology: NLTK
+
+Udacity Supervised Learning Project
+Purpose: 
+Technology: 
+
+
+==== Education & Training
+
+Carleton University Ottawa, Canada
+Bachelor of Computer Science, Honors 2018
+With High Distinction. Data management, AI, and software engineering. Web and mobile application
+development. Computer Vision. Awarded Senate Medal for Outstanding Academic Achievement
+
+University of Manitoba
+B.Sc. (Electrical Engineering), 1999
+Focused on microelectronics and VLSI design. Acquired proficiency in IC design tools, statistics and
+mathematics, MATLAB , and C++
+
+Udacity
+Data Science Nanodegree, pending
+CRISP-DM PRocess, Supervised learning, Unsupervised Learning, Deep Learning, Stakeholder Communication, 
+Experimental Design, Software Engineering, ETL Pipelines, NLP Pipelines
+
+=== Other Skills (Academic)
+OpenCV
+Tensorflow
