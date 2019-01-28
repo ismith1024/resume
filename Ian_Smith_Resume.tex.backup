@@ -66,8 +66,8 @@
 % \spacedhrule a horizontal line with some vertical space before and after it
 \newcommand{\spacedhrule}[2]{\breakvspace{#1}\hrule\nobreakvspace{#2}}
 
-% \inlineheadsection command, used for a new employer
-\newcommand{\inlineheadsection}[2]{\begin{basedescript}{\setlength{\leftmargin}{\doubleparindent}}\item[\hspace{\newparindent}\textbf{#1}]#2\end{basedescript}\vspace{-1.7em}}
+% \inlineheadsection command - for employers
+\newcommand{\inlineheadsection}[2]{\begin{basedescript}{\setlength{\leftmargin}{\doubleparindent}}\item[\hspace{\newparindent}\textbf{#1}]#2\end{basedescript}\vspace{-0.7em}}
 
 % apo command, for an apostrophe that looks good on old style nums
 \newcommand{\apo}{\raisebox{-.18ex}{'}{\hspace{-.1em}}}
@@ -78,11 +78,11 @@
 % Header 1 with no further instructions
 \newcommand{\headerone}[1] {\textscale{1.2}{\textbf{#1}}\vspace{0.7em}\nopagebreak[4]}
 
-% Header2 with no further instructions
-\newcommand{\headertwo}[1]{\nopagebreak[4]\textbf{#1}\nopagebreak[4]}
+% Header2 - for project titles
+\newcommand{\headertwo}[1]{\nopagebreak[4]\textbf{#1}\nopagebreak[4]\vspace{-0.7em}}
 
-% Header 3, inline
-\newcommand{\headerthreeinline}[2]{\vspace{-2.0em}\begin{basedescript}{\setlength{\leftmargin}{\tripleparindent}}\item[\hspace{\tripleparindent}\textbf{#1}]#2\end{basedescript}\vspace{0.1em}}
+% Header 3, inline - for project details
+\newcommand{\headerthreeinline}[2]{\vspace{-0.7em}\begin{basedescript}{\setlength{\leftmargin}{\tripleparindent}}\item[\hspace{\tripleparindent}\textbf{#1}]#2\end{basedescript}\vspace{-0.5em}}
 
 
 \begin{document} 
@@ -111,20 +111,30 @@ Ottawa, Ontario, Canada\sbull
 %\vspace{-1.3em}  
 %\begin{multicols}{2}  
 \noindent
-%\begin{itemize}
-I currently lead a research team within Intertek's Kanata office which enables the Global Restricted Substances (\acr{GRS})
-group conduct supply chain audits and risk analysis as part of conformity assessment against chemical regulations.\\
-
-\noindent During my time with this role I have harmonized service offerings and re-focused operations from ``boutique'' consulting services to data-driven, automated analytics.
-This has contributed to \acr{GRS}'s status as at or near Intertek's worldwide leader in profitability and growth over the last year.  Specific technologies include use of machine learning, data mining, data integration, and software engineering, as well as maintaining the team's research knowledge base.\\
-
-\noindent As my role has transitioned from subject-matter expertise to data management tool development, I have completed a part-time \acr{B.C.S.} at Carleton University's School of Computer Science on my own initiative, and achieved a grade point average of 11.75 out of 12.\\
-
+I provide technical leadership to an engineering team in the domain of supply chain risk analysis
+ within Intertek's Kanata office which enables the Global Restricted Substances (\acr{GRS}) group.
+I have built solutions for Business process automation, data pipelines, web-based tools for supply chain risk assessment, and scraping web repositories to obtain research data
+I interpret the results of the findings and communicate directly to stakeholders --- customers, my internal organization, and the public.\\
+  
 %\end{itemize}
 %\end{multicols}
 
 
 \spacedhrule{0em}{-0.4em}
+
+%%%%%%%%%%% Skills
+
+\roottitle{Technical Skills}
+
+    \inlineheadsection
+    {Technologies:} {Python (Pandas, Requests, ScikitLearn, NumPy, Flask), SQL, Java, Javascript, R, Jupyter Notebooks\\}
+    \inlineheadsection
+    {Applications:}{ Data pipelines and ETL, Web scraping, Machine learning, Natural language processing, Web apps,
+                     Mathematical and Statistical models, Business-domain research} 
+    %\inlineheadsection
+    %{Academic experience only:}{\acr{R}, Swift, Python, \acr{C}, Android, \LaTeX } 
+  
+\spacedhrule{1.5em}{-0.4em}
 
 %%%%%%%%%%%% Professional experience
 
@@ -189,48 +199,41 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
         {\bodytext{Focused on microelectronics and \acr{VLSI} design. Acquired proficiency in \acr{IC} design tools, statistics and mathematics, \acr{MATLAB}, and \acr{C++}. }} 
 }
 
+\headedsection
+    {\href{https://www.udacity.com/}{Udacity}}
+    {\textsc{}} {
+    \headedsubsection
+        {Data Scientist Nanodegree}
+        {Pending} 
+        {\bodytext{CRISP-DM PRocess, Supervised learning, Unsupervised Learning, Deep Learning, Stakeholder Communication, Experimental Design, Software Engineering, ETL Pipelines, NLP Pipelines }} 
+}
+
 \spacedhrule{0.5em}{-0.4em}
 
-\pagebreak
-%%%%%%%%%%% Skills
-
-\roottitle{Technical Skills}
-
-    \inlineheadsection
-    {Applications:} {Data mining, analytics, machine learning, business process automation, data integration, data cleaning, \acr{ETL}\\}
-    \inlineheadsection
-    {Languages:}{Java, \acr{SQL}.  Secondary experience with web development using \acr{HTML}, JavaScript (including jQuery), and hosting \acr{REST} server. Shell scripts including \acr{BASH}, PowerShell. \acr{C++}\\} 
-    \inlineheadsection
-    {Academic experience only:}{\acr{R}, Swift, Python, \acr{C}, Android, \LaTeX } 
-  
-\spacedhrule{1.5em}{-0.4em}
 
 %%%%%%%%%%%% Projects
 \roottitle{} 
-\headerone{Recent Professional Projects}
+\headerone{Professional Projects}
 
-   \headertwo{Risk Analysis System} \\        
-   \headerthreeinline{Purpose: }{ Enables the business to perform conformity assessment and risk analysis based on supply-chain data.  The regulatory requirements, substances, and risk assessment criteria are abstracted and can be configured as new uses are required.
-    System applies elements of \acr{AI} (machine learning and natural-language processing) to assist with decision-making that would not be possible using a conventional, rule-based, approach.}
-    \headerthreeinline{Technology: }{Object-oriented design,  Machine Learning, Java, \acr{SQL}, \acr{JSON}}
-    \headerthreeinline{Personnel: }{Two developers} 
+   \headertwo{Risk Analysis Application }
+   \vspace{4.7em}
+   \headerthreeinline{Purpose: }{ Analyze a client's supply chain for material risks.  Machine learning algorithm determines the types of materials based on text.  Renders a tabular report with recommended testing plan or design revisions, to assist a material science SME.  For a complex product, this allows a client to apply chemical testing in a cost-effective manner.}
+   \headerthreeinline{Results: }{Reduced a multi-week engineering workflow to hours.  XXX successful customer-projects to date.}
+   \headerthreeinline{Technology: }{Python, SQL, Javascript}
+
     
-  \headertwo{Data Integration} \\        
-   \headerthreeinline{Purpose: }{Allows for the use of third-party partner or client data.  Integrates engineering and operational databases.  Part of this exercise included writing the data interchange specification used by clients and business partners.  %Built interface to stream data from provider's \acr{REST} \acr{API}.
-   }
-    \headerthreeinline{Technology: }{\acr{SQL}, Java }
-    \headerthreeinline{Personnel: }{Multiple development teams across Intertek and business partner.} 
+  \headertwo{Material Risk Knowledge Base}         
+   \headerthreeinline{Purpose: }{Periodically mines product recall and litigation repositories to obtain up-to-date chemical infraction data set.  Cleans and transforms raw HTML and XML, processes free text, and stores results in SQL repository.}
+   \headerthreeinline{Results: }{ Intertek maintains an industry-leading knowledge base on exactly what regulated chemicals are used, and in what types of products.} 
+   \headerthreeinline{Technology: }{Python (Pandas, Requests, NLTK), Java, SQL }
+
    
-   \headertwo{Regulatory Research Tools} \\        
-   \headerthreeinline{Purpose: }{Assists research team by automatically mining regulatory enforcement data from regulatory bodies.  Extracts structured data from text, and performs statistical analysis.}
-    \headerthreeinline{Technology: }{\acr{SQL}, 
-     Java, Text mining, Multithreaded network communications, \acr{AJAX} }
-    \headerthreeinline{Personnel: }{Four researchers} 
-    
-    \headertwo{Web Dashboard (Middleware Layer)} \\        
-   \headerthreeinline{Purpose: }{Demonstration of an interactive portal which would allow clients to view status and preliminary findings of conformity projects in real-time.  This project is on hold pending data center's implementation of API specification.}
-    \headerthreeinline{Technology: }{\acr{REST}, Javascript, jQuery, \acr{SQL}, Node.js, \acr{JSON} }
-    \headerthreeinline{Personnel: }{Solo effort}     
+   \headertwo{ETL Pipelines }         
+   \headerthreeinline{Purpose: }{Automates customers' product design encodings and results of conformity assessments from various sources.  Maps schemas, cleans data, stores in engineering SQL database}
+   \headerthreeinline{Results: }{Intertek is able to accept product conformity data from in-house sources, third-party service providers, or customers, and deliver a consistent, repeatable analysis product.} 
+   \headerthreeinline{Technology: }{Python, SQL}
+
+ 
     
 %%%%%%%%%%%%%% ACADEMIC PROJECTS
 \spacedhrule{1.5em}{-0.4em}
@@ -240,20 +243,38 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
 \roottitle{} 
 \headerone{Academic Projects}
 
-   \headertwo{Honors Project} \\        
-   \headerthreeinline{Purpose: }{ Uses Natural Language Processing to extract product structure and composition from free text obtained from industrial designs.  Implemented in \acr{C++}.}
-    \headerthreeinline{Technology: }{Natural Language Processing}
-    
+   \headertwo{Value-Investor Stock Anaylzer}      
+   \headerthreeinline{Purpose: }{ Stock-market algorithms are ubiquitous, but I built this tool to apply Benjamin Graham/Warren Buffet Style fundamentals analysis at a time when "value invesing" was out of style.  It is essentially a regression learner which trains on fundamentals, predicting opportunity five-year returns. 
+   It uses the Shiny framework to provide the user with a convenient web UI.}
+   \headerthreeinline{Results: }{Beat the TSX very nicely.}
+    \headerthreeinline{Technology: }{R, SQL, Javascript}
 
-   \headertwo{Securities Analysis} \\        
-   \headerthreeinline{Purpose: }{ Uses multi-layer perceptron and Kohonen map to predict equity returns.  This project is distinguished from typical stock market analysis in that it attempts to make long-term predictions on the basis of fundamental, rather than technical, analysis (as emphasized by the ``Value'' style of investing).
-   Daily economic and market data dating back to the mid 1990's is analyzed.}
-    \headerthreeinline{Technology: }{Neural Networks, Data Integration}
+   \headertwo{Carleton University Honors Project} 
+   \headerthreeinline{Purpose: }{ Uses Natural Language Processing to extract product structure and composition from free text obtained from industrial designs.  Implemented in \acr{C++}.}
+   \headerthreeinline{Results: }{Portions of this academic project were found to be suitable for deployment in an industrial setting (I donated them to Intertek's Risk Analysis Application).  It also received a grade of A+.}
+   \headerthreeinline{Technology: }{C++, Machine Learning, Natural Language Processing, NLTK API (As part of the academic requirement, I wrote the NLP from scratch in C++)}
+    
+   \headertwo{Udacity Deep-Learning Project}  
+\headerthreeinline{Purpose: }{Classify the Oxford "Flowers" dataset by species using a convolutional neural network }
+   \headerthreeinline{Results: }{TBD}
+   \headerthreeinline{Technology: }{ Pytorch, Deep neural networks, Computer vision}
+
+   \headertwo{Udacity NLP Pipeline} 
+\headerthreeinline{Purpose: }{TBD}
+   \headerthreeinline{Results: }{TBD}
+   \headerthreeinline{Technology: }{Technology: NLTK}
+
+   \headertwo{Udacity Supervised Learning Project}  
+\headerthreeinline{Purpose: }{Evaluated Random Forest, Adaboost, Bayesian Classifiers in Scikitlearn using the California Census 
+dataset.  Obtained metrics <verify>}
+   \headerthreeinline{Results: }{TBD}
+   \headerthreeinline{Technology: }{Python and Jupyter}
     
 
 
 \spacedhrule{1.5em}{-0.4em}
 
 \vfill  
+
 {\footnotesize Last updated on \today}
 \end{document}
