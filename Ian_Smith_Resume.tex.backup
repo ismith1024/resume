@@ -79,10 +79,14 @@
 \newcommand{\headerone}[1] {\textscale{1.2}{\textbf{#1}}\vspace{0.7em}\nopagebreak[4]}
 
 % Header2 - for project titles
-\newcommand{\headertwo}[1]{\nopagebreak[4]\textbf{#1}\nopagebreak[4]\vspace{-0.7em}}
+\newcommand{\headertwo}[1]{\vspace{0.5em}\nopagebreak[4]\textbf{#1}\nopagebreak[4]\vspace{0.1em}} %WAS: -0.7
 
 % Header 3, inline - for project details
 \newcommand{\headerthreeinline}[2]{\vspace{-0.7em}\begin{basedescript}{\setlength{\leftmargin}{\tripleparindent}}\item[\hspace{\tripleparindent}\textbf{#1}]#2\end{basedescript}\vspace{-0.5em}}
+
+% ProjectLine
+\newcommand{\projectLine}[2]{\vspace{-0.4em}\begin{basedescript}{\setlength{\leftmargin}{\tripleparindent}}\item[\hspace{\tripleparindent}\textbf{#1}]#2\end{basedescript}\vspace{-0.5em}}
+
 
 
 \begin{document} 
@@ -127,9 +131,9 @@ I interpret the results of the findings and communicate directly to stakeholders
 \roottitle{Technical Skills}
 
     \inlineheadsection
-    {Technologies:} {Python (Pandas, Requests, ScikitLearn, NumPy, Flask), SQL, Java, Javascript, R, Jupyter Notebooks\\}
+    {Technologies:} {Python (Pandas, Requests, ScikitLearn, NumPy, Flask), \acr{SQL}, Java, Javascript, \acr{R}, Jupyter Notebooks}
     \inlineheadsection
-    {Applications:}{ Data pipelines and ETL, Web scraping, Machine learning, Natural language processing, Web apps,
+    {Applications:}{ Data pipelines and \acr{ETL}, Web scraping, Machine learning, Natural language processing, Web apps,
                      Mathematical and Statistical models, Business-domain research} 
     %\inlineheadsection
     %{Academic experience only:}{\acr{R}, Swift, Python, \acr{C}, Android, \LaTeX } 
@@ -157,7 +161,8 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
     \headedsubsection
         {Engineer}
         {January 2005 -- October 2009}
-        {\bodytext{Ageus Solutions was a successful independent consulting startup which was integrated into Intertek Health and Environmental after acquisition.  One of the founders of the company.  Served on board of Directors and as a corporate officer.  Responsible for legal due diligence during \acr{M\&A}.  Designed core analytical services and directed team of regulatory researchers.}}
+        {\bodytext{Ageus Solutions was a successful independent consulting startup which was integrated into Intertek Health and Environmental after acquisition.  One of the founders of the company.  
+        Served on board of Directors and as a corporate officer.  Responsible for legal due diligence during \acr{M\&A}.  Designed core analytical services and directed team of regulatory researchers.}}
 }
 
 \headedsection
@@ -205,7 +210,7 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
     \headedsubsection
         {Data Scientist Nanodegree}
         {Pending} 
-        {\bodytext{CRISP-DM PRocess, Supervised learning, Unsupervised Learning, Deep Learning, Stakeholder Communication, Experimental Design, Software Engineering, ETL Pipelines, NLP Pipelines }} 
+        {\bodytext{\acr{CRISP-DM} PRocess, Supervised learning, Unsupervised Learning, Deep Learning, Stakeholder Communication, Experimental Design, Software Engineering, \acr{ETL} Pipelines, \acr{NLP} Pipelines }} 
 }
 
 \spacedhrule{0.5em}{-0.4em}
@@ -216,22 +221,24 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
 \headerone{Professional Projects}
 
    \headertwo{Risk Analysis Application }
-   \vspace{4.7em}
-   \headerthreeinline{Purpose: }{ Analyze a client's supply chain for material risks.  Machine learning algorithm determines the types of materials based on text.  Renders a tabular report with recommended testing plan or design revisions, to assist a material science SME.  For a complex product, this allows a client to apply chemical testing in a cost-effective manner.}
-   \headerthreeinline{Results: }{Reduced a multi-week engineering workflow to hours.  XXX successful customer-projects to date.}
-   \headerthreeinline{Technology: }{Python, SQL, Javascript}
+   \projectLine{Purpose: }{ Analyze a client's supply chain for material risks.  Machine learning algorithm determines the types of materials based on text.  
+   Renders a tabular report with recommended testing plan or design revisions, to assist a material science \acr{SME}.  For a complex product, 
+   this allows a client to apply chemical testing in a cost-effective manner.}
+   \projectLine{Results: }{Reduced a multi-week engineering workflow to hours.  718 successful customer-projects to date.}
+   \projectLine{Technology: }{Python, \acr{SQL}, Javascript}
 
     
   \headertwo{Material Risk Knowledge Base}         
-   \headerthreeinline{Purpose: }{Periodically mines product recall and litigation repositories to obtain up-to-date chemical infraction data set.  Cleans and transforms raw HTML and XML, processes free text, and stores results in SQL repository.}
-   \headerthreeinline{Results: }{ Intertek maintains an industry-leading knowledge base on exactly what regulated chemicals are used, and in what types of products.} 
-   \headerthreeinline{Technology: }{Python (Pandas, Requests, NLTK), Java, SQL }
+   \projectLine{Purpose: }{Periodically mines product recall and litigation repositories to obtain up-to-date chemical infraction data set.  Cleans and transforms raw \acr{HTML} and \acr{XML}, 
+   processes free text, and stores results in \acr{SQL} repository.}
+   \projectLine{Results: }{ Intertek maintains an industry-leading knowledge base on current uses of 723 regulated chemicals, and in which materials or products.} 
+   \projectLine{Technology: }{Python (Pandas, Requests, \acr{NLTK}), Java, \acr{SQL} }
 
    
    \headertwo{ETL Pipelines }         
-   \headerthreeinline{Purpose: }{Automates customers' product design encodings and results of conformity assessments from various sources.  Maps schemas, cleans data, stores in engineering SQL database}
-   \headerthreeinline{Results: }{Intertek is able to accept product conformity data from in-house sources, third-party service providers, or customers, and deliver a consistent, repeatable analysis product.} 
-   \headerthreeinline{Technology: }{Python, SQL}
+   \projectLine{Purpose: }{Automates customers' product design encodings and results of conformity assessments from various sources.  Maps schemas, cleans data, stores in engineering \acr{SQL} database}
+   \projectLine{Results: }{Intertek is able to accept product conformity data from in-house sources, third-party service providers, or customers, and deliver a consistent, repeatable analysis product.} 
+   \projectLine{Technology: }{Python, \acr{SQL}}
 
  
     
@@ -244,31 +251,33 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
 \headerone{Academic Projects}
 
    \headertwo{Value-Investor Stock Anaylzer}      
-   \headerthreeinline{Purpose: }{ Stock-market algorithms are ubiquitous, but I built this tool to apply Benjamin Graham/Warren Buffet Style fundamentals analysis at a time when "value invesing" was out of style.  It is essentially a regression learner which trains on fundamentals, predicting opportunity five-year returns. 
-   It uses the Shiny framework to provide the user with a convenient web UI.}
-   \headerthreeinline{Results: }{Beat the TSX very nicely.}
-    \headerthreeinline{Technology: }{R, SQL, Javascript}
+   \projectLine{Purpose: }{ Stock-market algorithms are ubiquitous, so I built this tool to apply Benjamin Graham/Warren Buffet Style fundamentals analysis at a time when "value invesing" was out of style.  
+   It uses a regression learner trained on fundamentals, and predicts opportunity five-year returns. 
+   The Shiny framework provides the user with a convenient web \acr{UI}.}
+   \projectLine{Results: }{Exceeded the \acr{S\&P/TSX} Composite Index one-year return by 4.6\% in 2018}
+   \projectLine{Technology: }{\acr{R}, \acr{SQL}, Javascript}
 
    \headertwo{Carleton University Honors Project} 
-   \headerthreeinline{Purpose: }{ Uses Natural Language Processing to extract product structure and composition from free text obtained from industrial designs.  Implemented in \acr{C++}.}
-   \headerthreeinline{Results: }{Portions of this academic project were found to be suitable for deployment in an industrial setting (I donated them to Intertek's Risk Analysis Application).  It also received a grade of A+.}
-   \headerthreeinline{Technology: }{C++, Machine Learning, Natural Language Processing, NLTK API (As part of the academic requirement, I wrote the NLP from scratch in C++)}
+   \projectLine{Purpose: }{ Uses Natural Language Processing to extract product structure and composition from free text obtained from industrial designs.  Implemented in \acr{C++}.}
+   \projectLine{Results: }{Portions of this academic project were found to be suitable for deployment in an industrial setting (I donated them to Intertek's Risk Analysis Application).  
+   It also received a grade of \acr{A+}.}
+   \projectLine{Technology: }{\acr{C++}, Machine Learning, Natural Language Processing, \acr{NLTK} \acr{API} (As part of the academic requirement, I wrote the \acr{NLP} from scratch in \acr{C++})}
     
    \headertwo{Udacity Deep-Learning Project}  
-\headerthreeinline{Purpose: }{Classify the Oxford "Flowers" dataset by species using a convolutional neural network }
-   \headerthreeinline{Results: }{TBD}
-   \headerthreeinline{Technology: }{ Pytorch, Deep neural networks, Computer vision}
+   \projectLine{Purpose: }{Classify the Oxford "Flowers" dataset by species using a convolutional neural network }
+   %\projectLine{Results: }{TBD}
+   \projectLine{Technology: }{ Pytorch, Deep neural networks, Computer vision}
 
-   \headertwo{Udacity NLP Pipeline} 
-\headerthreeinline{Purpose: }{TBD}
-   \headerthreeinline{Results: }{TBD}
-   \headerthreeinline{Technology: }{Technology: NLTK}
+   %\headertwo{Udacity \acr{NLP} Pipeline} 
+   %\projectLine{Purpose: }{TBD}
+   %\projectLine{Results: }{TBD}
+   %\projectLine{Technology: }{Technology: \acr{NLTK}}
 
    \headertwo{Udacity Supervised Learning Project}  
-\headerthreeinline{Purpose: }{Evaluated Random Forest, Adaboost, Bayesian Classifiers in Scikitlearn using the California Census 
+   \projectLine{Purpose: }{Evaluated Random Forest, Adaboost, Bayesian Classifiers in Scikitlearn using the California Census 
 dataset.  Obtained metrics <verify>}
-   \headerthreeinline{Results: }{TBD}
-   \headerthreeinline{Technology: }{Python and Jupyter}
+   %\projectLine{Results: }{\acr{TBD}}
+   \projectLine{Technology: }{Python, Jupyter Notebooks}
     
 
 
