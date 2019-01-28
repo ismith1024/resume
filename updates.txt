@@ -11,9 +11,9 @@ I have built solutions for:
 ==== Professional Experience
 
 Intertek
-Global Restricted Substances — Ottawa, Canada
+Global Restricted Substances - Ottawa, Canada
 Engineer
-October 2009 – present
+October 2009 - present
 Intertek is a global auditing, testing, and certification service provider. Designed and implemented a
 configurable risk analysis platform for worldwide chemical regulatory compliance. Mine and analyze
 data to keep up to date on enforcement and risk trends. Automate business processes. Mentor junior
@@ -22,16 +22,16 @@ team members.
 Ageus Solutions
 Ottawa, Canada
 Engineer
-January 2005 – October 2009
+January 2005 - October 2009
 Ageus Solutions was a successful independent consulting startup which was integrated into Intertek
 Health and Environmental after acquisition. One of the founders of the company. Served on board of
 Directors and as a corporate officer. Responsible for legal due diligence during M&A . Designed core
 analytical services and directed team of regulatory researchers.
 
 Nortel Networks
-Optical Components — Ottawa, Canada
+Optical Components - Ottawa, Canada
 IC Designer
-June 2000 – December 2004
+June 2000 - December 2004
 The former Nortel Optical Components Group designed and fabricated GaAs ICs for use in optical long
 haul equipment. Analyzed integrated circuits and discrete semiconductor devices for root-cause of
 failure. Assembled and ran laboratory at minimal cost during downsizing. Experimentally demon-
