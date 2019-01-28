@@ -154,7 +154,7 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
     {\href{http://www.bce.ca/news-and-media/releases/show/nortel-networks-creates-high-performance-optical-components-business-unit}{Nortel Networks}}
     {\textsc{Optical Components --- Ottawa, Canada}} {
     \headedsubsection
-        {IC Designer}
+       {IC Designer}
         {June 2000 -- December 2004}
         {\bodytext{ The former Nortel Optical Components Group designed and fabricated \acr{GaAs ICs} for use in optical long haul equipment.  
         Analyzed integrated circuits and discrete semiconductor devices for root-cause of failure.  
@@ -173,9 +173,11 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
     {\href{http://carleton.ca}{Carleton University}}
     {\textsc{Ottawa, Canada}} {
     \headedsubsection
-        {Bachelor of Computer Science}
+        {Bachelor of Computer Science, Honors}
         {2018}
-        {\bodytext{With High Distinction.  Data management, \acr{AI}, and software engineering.  Web and mobile application development. Computer Vision.  Named to Dean's List in 2016 and 2017.}}
+        {\bodytext{With High Distinction.  Data management, \acr{AI}, and software engineering.  
+        Web and mobile application development. Computer Vision.  
+        Awarded Senate Medal for Outstanding Academic Achievement }}
 }
 
 \headedsection
