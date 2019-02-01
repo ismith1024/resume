@@ -41,21 +41,10 @@ action.
 ==== Skills
 
 Key Technologies:
- - Python (Pandas, Requests, ScikitLearn, NumPy, Flask)
- - SQL
- - Java
- - Javascript
- - R 
- - Jupyter Notebooks
+
 
 Applications:
- - Data pipelines & ETL
- - Web scraping
- - Machine learning
- - Natural language processing
- - Web apps
- - Mathematical and Statistical models
- - Business-domain research
+
 
 ==== Professional Projects
 
