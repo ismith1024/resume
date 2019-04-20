@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  1 FEB 2019 06:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  20 APR 2019 08:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -373,23 +373,23 @@ Package microtype Info: Character `013' is missing
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
 
 (./Ian_Smith_Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
 Package rerunfilecheck Info: File `Ian_Smith_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 297.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
  ) 
 Here is how much of TeX's memory you used:
  7803 strings out of 493029
- 117487 string characters out of 6136233
+ 117502 string characters out of 6136233
  251795 words of memory out of 5000000
- 11216 multiletter control sequences out of 15000+600000
- 48865 words of font info for 70 fonts, out of 8000000 for 9000
+ 11218 multiletter control sequences out of 15000+600000
+ 51505 words of font info for 70 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  30i,5n,35p,484b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rm.enc}{/usr/share/texmf/fonts/e
@@ -397,10 +397,10 @@ nc/dvips/tex-gyre/q-rm-sc.enc}</usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb>
 </usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/
 type1/public/tex-gyre/qplri.pfb>
-Output written on Ian_Smith_Resume.pdf (2 pages, 101022 bytes).
+Output written on Ian_Smith_Resume.pdf (2 pages, 100687 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
- 17409 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 17921 words of extra memory for PDF output out of 20736 (max. 10000000)
 
