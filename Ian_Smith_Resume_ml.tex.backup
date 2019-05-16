@@ -129,12 +129,9 @@ Ottawa, Ontario, Canada\sbull
 %in Python for an engineering team in the domain of supply chain risk analysis. I also interpret the results of the findings and 
 %communicate directly to stakeholders — customers, my internal organization, and the public.
 
-%I have implemented Machine Learning solutions for risk assessment, automated business processes, and built applications to mine online
-% repositories for research data.
-
-Using the Python 3 language, I provide machine learning solutions for supply chain risk assessment.  These include applications for business process automation,
-data pipelines, and mining web repositories for research data.  My work is a key component of Intertek's chemical regulatory certification services
-for the manufactuing sector.  I also interpret results and communicate directly to stakeholders --- customers, my internal organization, and the public.\\
+Using the Python 3 language, I have implemented Machine Learning solutions for risk assessment, automated business processes, and built applications to scrape web repositories for research data.
+These tools are used by Intertek's Global Restricted Substances (\acr{GRS}) group to provide supply chain risk analysis for manufacturers as part of regulatory certification.
+I interpret the results of the findings and communicate directly to stakeholders --- customers, my internal organization, and the public.\\
   
 %\end{itemize}
 %\end{multicols}
