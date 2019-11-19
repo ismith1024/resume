@@ -123,11 +123,22 @@ Ottawa, Ontario, Canada\sbull
 %\vspace{-1.3em}  
 %\begin{multicols}{2}  
 \noindent
-I provide technical leadership to an engineering team in the domain of supply chain risk analysis
- within Intertek's Kanata office which enables the Global Restricted Substances (\acr{GRS}) group.
-I have built solutions for Business process automation, data pipelines, web-based tools for supply chain risk assessment, and scraping web repositories to obtain research data
-I interpret the results of the findings and communicate directly to stakeholders --- customers, my internal organization, and the public.\\
-  
+
+%I provide solutions for Business process automation, data pipelines, web-based tools for supply chain risk assessment, and scraping
+%web repositories to obtain research data. I provide machine learning, data analysis, and process automation solutions 
+%in Python for an engineering team in the domain of supply chain risk analysis. I also interpret the results of the findings and 
+%communicate directly to stakeholders — customers, my internal organization, and the public.
+
+%I have implemented Machine Learning solutions for risk assessment, automated business processes, and built applications to mine online
+% repositories for research data.
+
+%Using the Python 3 language, I provide machine learning solutions for supply chain risk assessment.  These include applications for business process automation,
+%data pipelines, and mining web repositories for research data.  My work is a key component of Intertek's chemical regulatory certification services
+%for the manufactuing sector.  I also interpret results and communicate directly to stakeholders --- customers, my internal organization, and the public.\\
+
+Using the Python 3 language, I support the Machine Learning, Augmented Reality, Internet of Things and Blockchain initiatives with Pivotree's H3 development team.
+My applications include Natural Language Processing algorithm optimization, neural networks for object recognition, and threat detection.
+
 %\end{itemize}
 %\end{multicols}
 
@@ -139,12 +150,12 @@ I interpret the results of the findings and communicate directly to stakeholders
 \roottitle{Technical Skills}
 
     \inlineheadsection
-    {Technologies:} {Python (Pandas, Requests, Scikit-learn, NumPy, Flask, matplotlib, Plotly), \acr{SQL}, Java, Javascript, \acr{R}, Jupyter Notebooks}
+    {Technologies:} {Python (Pandas, Requests, Scikit-learn, NumPy, Flask, matplotlib, Plotly), \acr{SQL}, Java, JavaScript, Jupyter Notebooks, Git} %\acr{R}, 
     \inlineheadsection
-    {Applications:}{ Data pipelines and \acr{ETL}, Web scraping, Machine learning, Natural language processing, Web apps,
-                     Mathematical and Statistical models, Business-domain research} 
+    {Applications:}{ Machine Learning, Computer Vision, Web scraping, Natural language processing, Web apps, %APIs, Data pipelines and \acr{ETL}, 
+                     Mathematical and Statistical models, Business-domain research}
     %\inlineheadsection
-    %{Academic experience only:}{\acr{R}, Swift, Python, \acr{C}, Android, \LaTeX } 
+    %{Frameowrks:}{ AWS Sagemaker, ElasticSearch, Watson Studio, PySpark} 
   
 \spacedhrule{1.5em}{-0.4em}
 
@@ -153,14 +164,28 @@ I interpret the results of the findings and communicate directly to stakeholders
 \roottitle{Professional Experience}
 
     \headedsection  
+    {\href{http://www.pivotree.com}{Pivotree}}
+    {\textsc{H3 --- Ottawa, Canada}} {
+    \headedsubsection
+        {Data Scientist}
+        {August 2019 -- present}
+        {\bodytext{
+        Pivotree provides the Dive machine learning platform to e-commerce ventors to automate processes in Master Data Management.
+        Optimized machine learning algorithms for Dive - classifiers, NLP preprocessing,   
+        Developed computer vision system for visual product recommendation system.}}
+}
+
+
+    \headedsection  
     {\href{http://www.intertek.com}{Intertek}}
     {\textsc{Global Restricted Substances --- Ottawa, Canada}} {
     \headedsubsection
         {Engineer}
-        {October 2009 -- present}
+        {October 2009 -- August 2019}
         {\bodytext{Intertek is a global auditing, testing, and certification service provider. 
-Designed and implemented a configurable risk analysis platform for worldwide chemical regulatory compliance.
-Mine and analyze data to keep up to date on enforcement and risk trends.  Automate business processes.  Mentor junior team members. }}
+Designed and implemented a machine learning platform in Python to perform risk analysis for chemical regulatory compliance.
+Mine and analyze data to keep up to date on enforcement and risk trends.  Automate business processes.  Mentor junior team members.  
+Regularly communicate with consulting customers, Intertek teams, and the public.}}
 }
 
 \headedsection  
@@ -230,25 +255,46 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
 \roottitle{} 
 \headerone{Selected Professional Projects}
 
+   \headertwo{NLP Preprocessor Logic }
+   \projectLine{Purpose: }{ 
+   Product classifier for Dive MDM system which manages an e-commerce vendor's catalog.  Optimized NLP engine, classifier algorithm, and dimensionality reduction. }
+   \projectLine{Results: }{Increased classifier accuracy by 11\%.  Reduced dimensionality by factor of 20.}
+   \projectLine{Technology: }{Python (Scikit-learn, \acr{NLTK}), Jupyter Notebooks, \acr{SQL}, 
+   Supervised Machine Learning, Natural Language Processing}
+   
+   \headertwo{Visual Recommendation Engine }
+   \projectLine{Purpose: }{ 
+   Recommends similar products based on objects recognized in an image.  Implemented using pyTorch }
+   \projectLine{Results: }{Increased classifier accuracy by 11\%.  Reduced dimensionality by factor of 20.}
+   \projectLine{Technology: }{Python (Pytorch, Scikit-learn, \acr{NLTK}), Jupyter Notebooks, \acr{SQL}, 
+   Supervised Machine Learning, Convolutional Neural Networks, Computer Vision, Recommendation Engines}
+   
    \headertwo{Material Risk Analysis Application }
-   \projectLine{Purpose: }{ Analyze a client's supply chain for material risks.  Bayesian Classifier algorithm determines the types of materials based on text.  
-   Renders a tabular report with recommended testing plan or design revisions, to assist a material science \acr{SME}.  For a complex product, 
-   this allows a client to apply chemical testing in a cost-effective manner.  Deployed in a Flask application.}
-   \projectLine{Results: }{Reduced a multi-week engineering workflow to hours.  718 successful customer-projects to date.}
-   \projectLine{Technology: }{Python, \acr{SQL}, Javascript}
-
+   \projectLine{Purpose: }{ 
+   Analyzes a customer's supply chain for material risks. Evaluated multi-class machine learning algorithms including Naive Bayesian Classifier, 
+   Support Vector Machine, and Random Forest to determine the types of materials used in a product based on text extracted from its 
+   design files. Renders a tabular report with recommended testing plan or design revisions, to assist a material science \acr{SME}. 
+   Deployed in a Flask application using a \acr{REST} \acr{API}. }
+   \projectLine{Results: }{Reduced a multi-week engineering workflow to hours.  Allows customers to apply chemical testing in a targeted, cost-effective manner.  
+   718 successful customer-projects to date.}
+   \projectLine{Technology: }{Python (Scikit-learn, Pandas, NumPy, Flask, \acr{NLTK}), Jupyter Notebooks, \acr{SQL}, 
+   Javascript, Supervised Machine Learning, Statistical Analysis, Natural Language Processing, Information Theory}
     
   \headertwo{Material Risk Knowledge Base}         
-   \projectLine{Purpose: }{Periodically mines product recall and litigation repositories to obtain up-to-date chemical infraction data set.  Cleans and transforms raw \acr{HTML} and \acr{XML}, 
+   \projectLine{Purpose: }{Periodically mines product recall and litigation repositories to obtain up-to-date chemical infraction data set.  
+   Cleans and transforms raw \acr{HTML} and \acr{XML}, 
    processes free text, and stores results in \acr{SQL} repository.}
-   \projectLine{Results: }{ Intertek maintains an industry-leading knowledge base on current uses of 723 regulated chemicals, and in which materials or products they occur.} 
+   \projectLine{Results: }{ Intertek maintains an industry-leading knowledge base on current uses of 723 regulated chemicals, 
+   and in which of 214 material or component types they occur.} 
    \projectLine{Technology: }{Python (Pandas, Requests, \acr{NLTK}), Java, \acr{SQL} }
 
    
-   \headertwo{ETL Pipelines }         
-   \projectLine{Purpose: }{Automates customers' product design encodings and results of conformity assessments from various sources.  Maps schemas, cleans data, stores in engineering \acr{SQL} database}
-   \projectLine{Results: }{Intertek is able to accept product conformity data from in-house sources, third-party service providers, or customers, and deliver a consistent, repeatable analysis product.} 
-   \projectLine{Technology: }{Python, \acr{SQL}}
+   %\headertwo{ETL Pipelines }         
+   %\projectLine{Purpose: }{Automates customers' product design encodings and results of conformity assessments from various sources.  
+   %Maps schemas, cleans data, stores in engineering \acr{SQL} database.}
+   %\projectLine{Results: }{Intertek is able to accept product conformity data from in-house sources, third-party service providers, or 
+   %customers, and deliver a consistent, repeatable analysis product.} 
+   %\projectLine{Technology: }{Python, \acr{SQL}}
 
  
     
@@ -257,37 +303,37 @@ Mine and analyze data to keep up to date on enforcement and risk trends.  Automa
 
 
 %%%%%%%%%%%% Projects
-\roottitle{} 
-\headerone{Personal or Academic Projects}
+%\roottitle{} 
+%\headerone{Personal or Academic Projects}
 
-   \headertwo{Value-Investor Stock Anaylzer}      
-   \projectLine{Purpose: }{ Built to investigate fundamental analysis at a time when ``value invesing'' was out of style and ``value stocks'' were depressed in price.
-   It uses a regression learner trained on fundamentals, and predicts opportunity five-year returns as candidate investments. 
-   The Shiny framework provides the user with a convenient web \acr{UI}.}
-   \projectLine{Results: }{Selected candidates exceeded the \acr{S\&P/TSX} Composite Index one-year return by 4.6\% for 2018}
-   \projectLine{Technology: }{\acr{R}, \acr{SQL}, Javascript}
+   %\headertwo{Carleton University Honors Project} 
+   %\projectLine{Purpose: }{ Uses Natural Language Processing to extract product structure and composition from free text obtained from industrial designs.  Implemented in \acr{C++}.}
+   %\projectLine{Results: }{Portions of this project were suitable for deployment in an industrial setting, as part of Intertek's Risk Analysis Application.  
+   %The project was awarded a grade of \acr{A+}.}
+   %\projectLine{Technology: }{\acr{C++}, Machine Learning, Natural Language Processing, \acr{NLTK} \acr{API}.  Built \acr{NLP} from scratch in \acr{C++}}
 
-   \headertwo{Carleton University Honors Project} 
-   \projectLine{Purpose: }{ Uses Natural Language Processing to extract product structure and composition from free text obtained from industrial designs.  Implemented in \acr{C++}.}
-   \projectLine{Results: }{Portions of this project suitable for deployment in an industrial setting, as part of Intertek's Risk Analysis Application.  
-   The project was awarded a grade of \acr{A+}.}
-   \projectLine{Technology: }{\acr{C++}, Machine Learning, Natural Language Processing, \acr{NLTK} \acr{API}.  Built \acr{NLP} from scratch in \acr{C++}}
-    
-   \headertwo{Udacity Deep-Learning Project}  
-   \projectLine{Purpose: }{Classify the Oxford "Flowers" dataset by species using a convolutional neural network.}%  Accuracy 77\% }
+   %\headertwo{\acr{TSX} Value Anaylzer}      
+   %\projectLine{Purpose: }{ Built to investigate fundamental analysis at a time when ``value invesing'' was out of style and ``value stocks'' were depressed in price.
+   %It uses a regression learner trained on fundamentals, and predicts five-year returns of candidate investments. 
+   %The Shiny framework provides the user with a \acr{GUI}.}
+   %\projectLine{Results: }{Application performs well in real-world situations; selected candidates have exceeded the \acr{S\&P/TSX} Composite Index.}
+   %\projectLine{Technology: }{\acr{R}, \acr{SQL}, Javascript}
+   
+   %\headertwo{Udacity Deep-Learning Project}  
+   %\projectLine{Purpose: }{Classify the Oxford "Flowers" dataset by species using a convolutional neural network.}%  Accuracy 77\% }
    %\projectLine{Results: }{TBD}
-   \projectLine{Technology: }{ Pytorch, Deep neural networks, Computer vision}
+   %\projectLine{Technology: }{ Pytorch, Deep neural networks, Computer vision}
 
    %\headertwo{Udacity \acr{NLP} Pipeline} 
    %\projectLine{Purpose: }{TBD}
    %\projectLine{Results: }{TBD}
    %\projectLine{Technology: }{Technology: \acr{NLTK}}
 
-   \headertwo{Udacity Supervised Learning Project}  
-   \projectLine{Purpose: }{Evaluated Random Forest, Adaboost, Bayesian Classifiers in scikit-learn using the California Census 
-dataset.}  %Accuracy 0.8671, $F_1$ 0.7433 }
+   %\headertwo{Udacity Supervised Learning Project}  
+   %\projectLine{Purpose: }{Evaluated Random Forest, Adaboost, Bayesian Classifiers in scikit-learn using the California Census 
+%dataset.}  %Accuracy 0.8671, $F_1$ 0.7433 }
    %\projectLine{Results: }{\acr{TBD}}
-   \projectLine{Technology: }{Python, Jupyter Notebooks, scikit-learn}
+   %\projectLine{Technology: }{Python, Jupyter Notebooks, scikit-learn}
     
 %{\footnotesize Academic projects are available at github.com/ismith1024.}
 
