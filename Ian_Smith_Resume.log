@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  18 NOV 2019 20:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  18 NOV 2019 20:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -362,6 +362,11 @@ Package relsize Warning: Font size 40.0pt is too large.
 Package relsize Warning: Font size 40.0pt is too large.
 (relsize)                Using 24.88pt instead on input line 112.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+ []
+
 Package microtype Info: Character `013' is missing
 (microtype)             in font `OT1/qpl/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -386,13 +391,13 @@ Here is how much of TeX's memory you used:
  11216 multiletter control sequences out of 15000+600000
  48195 words of font info for 65 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 30i,5n,35p,484b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,5n,35p,484b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rm.enc}{/usr/share/texmf/fonts/e
 nc/dvips/tex-gyre/q-rm-sc.enc}</usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb>
 </usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/
 type1/public/tex-gyre/qplri.pfb>
-Output written on Ian_Smith_Resume.pdf (2 pages, 101810 bytes).
+Output written on Ian_Smith_Resume.pdf (2 pages, 101278 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
